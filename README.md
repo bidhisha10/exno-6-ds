@@ -219,34 +219,34 @@ mart=mart[['PassengerId', 'Survived', 'Age', 'Name', 'Ticket', 'Embarked']]
 mart.head(10)
 
 ```
-<img width="752" height="562" alt="image" src="https://github.com/user-attachments/assets/e63904c0-1022-4381-ac08-1bd842800f05" />
+<img width="1037" height="462" alt="image" src="https://github.com/user-attachments/assets/232b6220-c5d2-4358-979e-ec58fc14a35c" />
 
 
 ```
 sns.kdeplot(data=mart,x='PassengerId')
 ```
 
-<img width="782" height="592" alt="image" src="https://github.com/user-attachments/assets/243b9890-b35f-4061-a8c8-b16b45a3dcbf" />
+<img width="752" height="562" alt="image" src="https://github.com/user-attachments/assets/e63904c0-1022-4381-ac08-1bd842800f05" />
 
 
 ```
 sns.kdeplot(data=mart,x='Age')
 
 ```
-<img width="752" height="577" alt="image" src="https://github.com/user-attachments/assets/adfa24a2-524f-4699-80f8-f7188c3310fb" />
+<img width="782" height="592" alt="image" src="https://github.com/user-attachments/assets/243b9890-b35f-4061-a8c8-b16b45a3dcbf" />
 
 
 ```
 sns.kdeplot(data=mart)
 ```
-<img width="802" height="571" alt="image" src="https://github.com/user-attachments/assets/c39d8724-b161-4e06-a6f9-54c03b20e845" />
+<img width="752" height="577" alt="image" src="https://github.com/user-attachments/assets/adfa24a2-524f-4699-80f8-f7188c3310fb" />
 
 
 ```
 sns.kdeplot(data=mart,x='PassengerId',hue='Survived',multiple='stack')
 
 ```
-<img width="752" height="582" alt="image" src="https://github.com/user-attachments/assets/116c6082-063d-4830-b498-e88b5098a945" />
+<img width="802" height="571" alt="image" src="https://github.com/user-attachments/assets/c39d8724-b161-4e06-a6f9-54c03b20e845" />
 
 
 ```
@@ -254,6 +254,7 @@ sns.kdeplot(data=mart,x='PassengerId',y='Survived')
 
 ```
 
+<img width="752" height="582" alt="image" src="https://github.com/user-attachments/assets/116c6082-063d-4830-b498-e88b5098a945" />
 
 ```
 data = np.random.randint(low = 1, high = 100, size = (10,10))
