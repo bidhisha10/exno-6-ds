@@ -211,7 +211,7 @@ mart=pd.read_csv("/content/titanic_dataset.csv")
 mart
 
 ```
-<img width="1062" height="478" alt="image" src="https://github.com/user-attachments/assets/382459f8-3a32-40e5-a60f-5723a939dee7" />
+<img width="1498" height="531" alt="image" src="https://github.com/user-attachments/assets/bbe6e4e0-910c-4f95-a799-5c9a6c9c0338" />
 
 
 ```
